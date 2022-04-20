@@ -1,0 +1,91 @@
+    * {
+        margin: auto;
+    }
+    .form-tt {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px;
+    background-color: pink;
+    text-align: center;
+    box-shadow:5px 5px #555;
+    }
+    .form-tt h2 {
+    font-size: 30px;
+    color: #000;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 30px;
+    }
+    
+    .form-tt input[type=text], .form-tt input[type=password] {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.2;
+    display: block;
+    width: calc(100% - 10px);
+    height: 45px;
+    background:pink;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffffff3d!important;
+    border: 0;
+    outline: 0;
+    }
+    .form-tt input[type=text]::focus, .form-tt input[type=password]::focus {
+    color: red;
+    }
+    .form-tt input[type=password] {
+    margin-bottom: 20px;
+    }
+    .form-tt input::placeholder {
+    color: #000;
+    }
+    .checkbox {
+    display: block;
+    }
+    .form-tt input[type=submit] {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.2;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background: pink;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    outline: 0;
+    display: block;
+    margin: 30px auto;
+    }
+    .form-tt input[type=submit]:hover {
+        color: antiquewhite;
+        background-color: palevioletred;
+        font-size: large;
+    }
+    .submit:hover{
+        font-size: large;
+        color: blue;
+    }
+    #checkbox {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    .checkbox-text {
+    color: #000;
+    }
+    .psw-text {
+    color: #000;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        color:crimson;
+    }

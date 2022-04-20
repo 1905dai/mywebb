@@ -1,0 +1,81 @@
+    * {
+        margin: auto;
+    }
+    legend{
+        color:snow;
+    }
+    .form-tt {
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px;
+    background-color:pink;
+    box-shadow:5px 5px 5px #555;
+    }
+    .form-tt h2 {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 30px;
+    }
+    
+    .form-tt input[type=text], .form-tt input[type=password] ,.form-tt input[type=email], .form-tt input[type=tel], .form-tt textarea{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    width: calc(100% - 50px);
+    height: 45px;
+    background:pink;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffffff3d!important;
+    border: 0;
+    outline: 0;
+    }
+    .form-tt input[type=password] {
+    margin-bottom: 20px;
+    }
+    .checkbox {
+    display: block;
+    }
+    .form-tt input[type=submit] {
+    font-size: 26px;
+    color: #555;
+    line-height: 1.2;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background: pink;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    outline: 0;
+    display: block;
+    margin: 30px auto;
+    }
+    .form-tt input[type=submit]:hover {
+        color: antiquewhite;
+        background-color: palevioletred;
+        font-size: larger;
+    }
+    .submit:hover{
+        font-size: larger;
+        color: blue;
+    }
+    #checkbox {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    .psw-text {
+    color: #000;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        color:crimson;
+    }
+   

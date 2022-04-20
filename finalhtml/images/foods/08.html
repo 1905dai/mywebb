@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/finalhtml/cssstyle.css">
+    <link rel="stylesheet" type="text/css" href="./monan.css">
+    <script type="text/javascript" src="/finalhtml/main.js" ></script> 
+    <title>Khô gà lá chanh - Quán ven đường</title>
+</head>
+<body>
+    <nav>
+        <div class="content-nav">
+            <ul>
+                <li><a href="/finalhtml/trangchu.html">Trang Chủ</a></li>
+                <li><a href="/finalhtml/monan.html">Đồ ăn vặt</a></li>
+                <li><a href="/finalhtml/douong.html">Đồ uống</a></li>
+                <li><a href="/finalhtml/information/lienhe.html">Liên Hệ</a></li>
+                <li><a href="/finalhtml/information/gioithieu.html">Giới Thiệu</a></li>
+            </ul>
+            <form>
+                <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <button id="cart" onclick="notify()">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            Giỏ Hàng
+        </button>
+    </nav>
+       <section>
+            <li class="main-product">
+                <h1>Khô gà lá chanh</h1>
+                <div class="img-product">
+                    <img class="img-int" src="./08-khogalachanh.jpg" alt="Khô gà lá chanh">
+                </div>
+                <br/>
+
+                <div class="infor">
+                    <h3>Thông tin cơ bản:</h3>
+                    <hr><br>
+                    <ul><h4>Thông tin mặt hàng:</h4>
+                        <li>Sản phẩm được dử dụng từ những vật liệu nhà làm đảm bảo an toàn vệ sinh thực phẩm</li>
+                        <li>Sản phẩm đã được kiểm địnhvà cấp phép buôn bán</li>
+                        <li>...</li>
+                    </ul>
+                    <br>
+                    <ul><h4>Thông tin xe hàng</h4>
+                        <li><u>Địa chỉ:</u> Hèm 69, đường 30/4, thành phố Thủ Dầu Một</li>
+                        <li><u>Giờ mở cửa:</u> 15h30 đến 22h các ngày trong tuần</li>
+                        <li>...</li>
+                    </ul>
+                    <br><hr>
+                </div>
+
+                <div class="buttom-buy">
+                    <button type="button" class="button button-cart" onclick="buy()">Mua ngay: 18.000đ</button>
+                </div>
+            </li>
+       </section>
+       <footer>
+        <div class="footer-item">
+            <div class="social-footer">
+                <li><a target="_blank" href="https://www.facebook.com/sin195" title="Creater">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
